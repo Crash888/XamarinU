@@ -7,8 +7,7 @@
 packages/
 TestResults/
 Extras/
-
-# globs
+:# globs
 Makefile.in
 *.DS_Store
 *.sln.cache
