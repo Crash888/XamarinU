@@ -40,6 +40,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SharedResources.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

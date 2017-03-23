@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using Xamarin.Forms.Xaml;
+
 using Xamarin.Forms;
+
+//  Turns on xaml compilation
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 
 namespace Calculator
 {
