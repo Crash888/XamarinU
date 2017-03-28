@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TipCalculator.App">
+	<Application.Resources>
+		<ResourceDictionary>
+			<Style TargetType="Label" x:Key="baseLabelStyle">
+				<Setter Property="FontSize" Value="22" />
+			</Style>
+			<Style TargetType="Label" x:Key="infoLabelStyle" BasedOn="{StaticResource baseLabelStyle}">
+				<Setter Property="FontAttributes" Value="Bold" />
+			</Style>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
